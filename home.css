@@ -53,7 +53,12 @@ body{
     gap: 50px;
     list-style-type: none;
     font-size: 18px;
-    font-weight: 400;    
+    font-weight: 400;  
+    transition: all .3s;  
+}
+
+.nav_item li {
+    width: 80px;
 }
 
 .nav_item :hover{
@@ -79,6 +84,7 @@ li{
 a{
     color: #ffff;
     text-decoration: none;
+    transition: all .3s;
 }
 
 .nav_buttons{
@@ -217,50 +223,70 @@ button.box:hover .box-stroke {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
 }
 
 .dots{
     position: relative;
-    
+    width: 100%;
+    z-index: -1;
 }
 
 .dots_red{
     position: absolute;
-    z-index: -1;
+    left: 1vw;
 }
 
 .dots_black{
     position: absolute;
-    right: 22px;
-    top: 294px;
-    z-index: -1;
+    right: 1vw;
+    margin-top: 250px;
 }
 
 .video{
     position: relative;
+    padding: 100px;
 }
 
-.video_image{
-    padding: 54px;
-    max-width: 400px;
-    position: relative;
-
+.video__image{
+    max-width: 80vw;
 }
+
+.dot {
+    position: absolute;
+    z-index: -1;
+    max-width: 50vw;
+    width: 30%;
+}
+
+.black-dot {
+    top: 0;
+    left: 0;
+}
+
+.red-dot {
+    bottom: 0;
+    right: 0;
+}
+
+
 
 .video_logo{
     position: absolute;
-    top: 306px;
-    right: 490px;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
 }
 
 .raw_cultural{
     display: flex;
-    justify-content: space-around;
-    gap: 200px;
-    position: absolute;
-    bottom: -140px;
-    left: 220px;
+    gap: 10vw;
+}
+
+.raw_elite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image_button {
@@ -272,8 +298,9 @@ button.box:hover .box-stroke {
     text-transform: uppercase;
     background: linear-gradient(180deg, #FB0303, #892222 100%);
     display: inline-block; 
-    position: absolute;
-    top: 200px;
+    position: relative;
+
+    margin-top: -40px;
 }
 
 .image_button:hover .box-stroke {
@@ -281,16 +308,6 @@ button.box:hover .box-stroke {
     left: -3px;
 }
 
-.raw_elite{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.life{
-    position: relative;
-}
 
 
 #Four{
