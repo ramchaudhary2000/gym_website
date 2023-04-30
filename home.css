@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+.blured_logo{
+    
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+    overflow: hidden;
+    transform: rotate(18deg);
+    z-index: -1;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #ffff;
+    background-color: #FB0303;
+    padding: 12px 40px 12px 40px;
+}
+.footer_address{
+    display: flex;
+    gap: 6px;
+    text-transform: uppercase;
+}
+
+.landing_page{
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 0;
+    background-image: url("Assests/Images/landing\ image.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_item{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;    
+}
+
+.nav_item :hover{
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #FB0303;
+    /* transform: scale(2); */
+
+}
+
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    color: #ffff;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.nav_buttons{
+    display: flex;
+    gap: 24px;
+    max-height: fit-content;
+}
+
+.headings{
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.heading_para{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.heading{
+    font-size: 52px;
+    font-weight: 700;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+
+.heading span{
+    color: #FB0303;
+}
+
+.paragraph{
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+
+button.box {
+    all: unset;
+    max-width: fit-content;
+    padding: 12px 10px 12px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FB0303, #892222 100%);
+    display: inline-block; 
+    position: relative;
+}
+  
+.box-stroke {
+    border: 3px solid red;
+    height: 44px;
+    width:100%;
+    position: absolute;
+    top: -6px;
+    left: 9px;
+    transition: all .3s;
+}
+  
+button.box:hover .box-stroke {
+    top: 0;
+    left: -3px;
+}
+
+.second_heading{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+#Two{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 20px 68px 0 68px;
+    
+}
+
+.our_mission{
+    display: flex;
+    gap: 66px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#two_heading{
+    display: flex;
+    justify-content: center;
+    color: #FB0303;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.raw_logo{
+    position: absolute;
+    top: 214px;
+}
+
+.left_item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.right_item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.second_heading span{
+    color: #FB0303;
+}
+
+.mission_paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#Three{
+    padding: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.dots{
+    position: relative;
+    
+}
+
+.dots_red{
+    position: absolute;
+    z-index: -1;
+}
+
+.dots_black{
+    position: absolute;
+    right: 22px;
+    top: 294px;
+    z-index: -1;
+}
+
+.video{
+    position: relative;
+}
+
+.video_image{
+    padding: 54px;
+    max-width: 400px;
+    position: relative;
+
+}
+
+.video_logo{
+    position: absolute;
+    top: 306px;
+    right: 490px;
+}
+
+.raw_cultural{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    position: absolute;
+    bottom: -140px;
+    left: 220px;
+}
+
+.image_button {
+    all: unset;
+    max-width: fit-content;
+    padding: 12px 10px 12px 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FB0303, #892222 100%);
+    display: inline-block; 
+    position: absolute;
+    top: 200px;
+}
+
+.image_button:hover .box-stroke {
+    top: 0;
+    left: -3px;
+}
+
+.raw_elite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.life{
+    position: relative;
+}
+
+
+#Four{
+    padding: 76px 0 0 0;
+}
+
+.fitness_consultant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    background-image: url(Assests/Images/Need\ fitnes\ consultant.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.fitness_heading{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+#fitness{
+    color: #FB0303;
+}
+
+.slidecontainer{
+    position: relative;
+    width: 100%;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.arrow{
+    top: 50%;
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 255,255, 0.712);
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.prev{
+    left: 30px;
+}
+
+.next{
+    right: 30px;
+}
+
+.slide{
+    display: none;
+}
+
